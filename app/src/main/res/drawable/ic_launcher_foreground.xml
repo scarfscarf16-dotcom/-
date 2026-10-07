@@ -1,0 +1,20 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Quran book icon in gold and emerald -->
+    <path
+        android:fillColor="#D4AF37"
+        android:pathData="M24,28c0,-4.4 3.6,-8 8,-8h44c4.4,0 8,3.6 8,8v52c0,4.4 -3.6,8 -8,8H32c-4.4,0 -8,-3.6 -8,-8V28z" />
+    <path
+        android:fillColor="#0A231C"
+        android:pathData="M28,32c0,-2.2 1.8,-4 4,-4h40c2.2,0 4,1.8 4,4v44c0,2.2 -1.8,4 -4,4H32c-2.2,0 -4,-1.8 -4,-4V32z" />
+    <!-- Golden calligraphy ornament / crescent -->
+    <path
+        android:fillColor="#F7DC6F"
+        android:pathData="M54,36c-9.9,0 -18,8.1 -18,18s8.1,18 18,18c4.6,0 8.8,-1.7 12,-4.6c-2.8,0.9 -5.9,1.4 -9,1.4c-13.8,0 -25,-11.2 -25,-25c0,-7.7 3.5,-14.6 9,-19.1c-2.6,3.4 -4,7.6 -4,12.3c0,11 9,20 20,20c3.4,0 6.6,-0.9 9.3,-2.4C63.6,39.4 59.1,36 54,36z" />
+    <path
+        android:fillColor="#D4AF37"
+        android:pathData="M54,42l3,6l6,1l-4.5,4.5l1,6.5l-5.5,-3l-5.5,3l1,-6.5l-4.5,-4.5l6,-1z" />
+</vector>

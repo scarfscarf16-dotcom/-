@@ -1,0 +1,57 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="720dp"
+    android:height="1280dp"
+    android:viewportWidth="720"
+    android:viewportHeight="1280">
+
+    <!-- Deep Emerald and Obsidian gradient background -->
+    <path
+        android:pathData="M0,0h720v1280h-720z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startY="0"
+                android:endY="1280"
+                android:startX="0"
+                android:endX="720"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FF041913" />
+                <item android:offset="0.5" android:color="#FF0A3326" />
+                <item android:offset="1.0" android:color="#FF03110D" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Center Geometric Arabesque Octagram Star 1 -->
+    <path
+        android:pathData="M360,200 L400,240 L460,240 L460,300 L500,340 L460,380 L460,440 L400,440 L360,480 L320,440 L260,440 L260,380 L220,340 L260,300 L260,240 L320,240 Z"
+        android:strokeColor="#44D4AF37"
+        android:strokeWidth="3"
+        android:fillColor="#15D4AF37" />
+
+    <!-- Center Geometric Arabesque Octagram Star 2 (Middle) -->
+    <path
+        android:pathData="M360,540 L420,600 L500,600 L500,680 L560,740 L500,800 L500,880 L420,880 L360,940 L300,880 L220,880 L220,800 L160,740 L220,680 L220,600 L300,600 Z"
+        android:strokeColor="#33D4AF37"
+        android:strokeWidth="3"
+        android:fillColor="#10D4AF37" />
+
+    <!-- Center Geometric Arabesque Octagram Star 3 (Bottom) -->
+    <path
+        android:pathData="M360,1000 L400,1040 L460,1040 L460,1100 L500,1140 L460,1180 L460,1240 L400,1240 L360,1280 L320,1240 L260,1240 L260,1180 L220,1140 L260,1100 L260,1040 L320,1040 Z"
+        android:strokeColor="#44D4AF37"
+        android:strokeWidth="3"
+        android:fillColor="#15D4AF37" />
+
+    <!-- Subtle Islamic Interlocking Borders -->
+    <path
+        android:pathData="M40,40 L680,40 L680,1240 L40,1240 Z"
+        android:strokeColor="#22D4AF37"
+        android:strokeWidth="2"
+        android:fillColor="#00000000" />
+    <path
+        android:pathData="M60,60 L660,60 L660,1220 L60,1220 Z"
+        android:strokeColor="#18D4AF37"
+        android:strokeWidth="1"
+        android:fillColor="#00000000" />
+</vector>

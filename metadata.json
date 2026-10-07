@@ -1,0 +1,6 @@
+{
+  "name": "صانع فيديو القرآن",
+  "description": "تطبيق قرآني متكامل لتوليد مقاطع فيديو قرآنية احترافية مخصصة حسب المدة، مع باقة من أشهر القراء وتشكيلة خلفيات إسلامية ساحرة ومؤثرات بصرية متقدمة.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

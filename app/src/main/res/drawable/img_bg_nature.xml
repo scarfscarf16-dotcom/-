@@ -1,0 +1,46 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="720dp"
+    android:height="1280dp"
+    android:viewportWidth="720"
+    android:viewportHeight="1280">
+
+    <!-- Twilight deep blue & purple spiritual gradient -->
+    <path
+        android:pathData="M0,0h720v1280h-720z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startY="0"
+                android:endY="1280"
+                android:startX="360"
+                android:endX="360"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FF06101E" />
+                <item android:offset="0.4" android:color="#FF0F1E33" />
+                <item android:offset="0.75" android:color="#FF1A2740" />
+                <item android:offset="1.0" android:color="#FF081220" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Starry night constellation points -->
+    <path
+        android:pathData="M120,80l2,3l3,2l-3,2l-2,3l-2,-3l-3,-2l3,-2z M320,120l2,4l4,2l-4,2l-2,4l-2,-4l-4,-2l4,-2z M540,90l2,4l4,2l-4,2l-2,4l-2,-4l-4,-2l4,-2z M240,240l2,3l3,2l-3,2l-2,3l-2,-3l-3,-2l3,-2z M450,280l2,3l3,2l-3,2l-2,3l-2,-3l-3,-2l3,-2z M650,220l2,3l3,2l-3,2l-2,3l-2,-3l-3,-2l3,-2z"
+        android:fillColor="#99E0F2FE" />
+
+    <!-- Radiant Full Moon -->
+    <path
+        android:pathData="M360,260m-50,0a50,50 0 1,0 100,0a50,50 0 1,0 -100,0"
+        android:fillColor="#15FFFFFF" />
+    <path
+        android:pathData="M360,260m-35,0a35,35 0 1,0 70,0a35,35 0 1,0 -70,0"
+        android:fillColor="#EEFDFCF0" />
+
+    <!-- Calm water waves at bottom -->
+    <path
+        android:pathData="M0,900 C180,880 360,920 540,890 C630,875 680,885 720,890 L720,1280 L0,1280 Z"
+        android:fillColor="#660A1828" />
+    <path
+        android:pathData="M0,980 C200,950 400,1010 600,970 C660,955 700,965 720,970 L720,1280 L0,1280 Z"
+        android:fillColor="#9906101C" />
+</vector>

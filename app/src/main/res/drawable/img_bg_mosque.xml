@@ -1,0 +1,59 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="720dp"
+    android:height="1280dp"
+    android:viewportWidth="720"
+    android:viewportHeight="1280">
+
+    <!-- Night sky gradient -->
+    <path
+        android:pathData="M0,0h720v1280h-720z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startY="0"
+                android:endY="1280"
+                android:startX="360"
+                android:endX="360"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FF040D1A" />
+                <item android:offset="0.3" android:color="#FF081A26" />
+                <item android:offset="0.7" android:color="#FF0A2B20" />
+                <item android:offset="1.0" android:color="#FF04140F" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Glowing Moon in upper sky -->
+    <path
+        android:pathData="M520,160a60,60 0 1,0 60,60 48,48 0 0,1 -60,-60z"
+        android:fillColor="#FFFDF2A4" />
+
+    <!-- Distant Stars -->
+    <path
+        android:pathData="M140,90l2,5l5,2l-5,2l-2,5l-2,-5l-5,-2l5,-2z M280,180l2,4l4,2l-4,2l-2,4l-2,-4l-4,-2l4,-2z M410,80l2,4l4,2l-4,2l-2,4l-2,-4l-4,-2l4,-2z M620,120l2,3l3,2l-3,2l-2,3l-2,-3l-3,-2l3,-2z M90,260l2,3l3,2l-3,2l-2,3l-2,-3l-3,-2l3,-2z M200,340l2,3l3,2l-3,2l-2,3l-2,-3l-3,-2l3,-2z M610,320l2,4l4,2l-4,2l-2,4l-2,-4l-4,-2l4,-2z"
+        android:fillColor="#88FFFDEB" />
+
+    <!-- Grand Mosque Arches Silhouette at Bottom -->
+    <path
+        android:pathData="M0,860 L0,1280 L720,1280 L720,860 C660,860 620,920 600,980 L600,760 C600,720 590,700 580,720 L580,980 C550,910 500,860 440,860 C380,860 330,910 300,980 L300,740 C300,700 290,680 280,700 L280,980 C260,920 220,860 160,860 C100,860 50,910 0,860 Z"
+        android:fillColor="#DD061713" />
+
+    <!-- Golden Arch Accents -->
+    <path
+        android:pathData="M440,865 C500,865 545,915 575,985 C570,985 450,875 440,865 Z"
+        android:fillColor="#33D4AF37" />
+    <path
+        android:pathData="M160,865 C220,865 255,915 275,985 C270,985 170,875 160,865 Z"
+        android:fillColor="#33D4AF37" />
+
+    <!-- Islamic Dome Center Silhouette -->
+    <path
+        android:pathData="M360,680 C360,680 430,760 430,860 L290,860 C290,760 360,680 360,680 Z"
+        android:fillColor="#CC071E17" />
+    <path
+        android:pathData="M358,640 L362,640 L362,680 L358,680 Z"
+        android:fillColor="#D4AF37" />
+    <path
+        android:pathData="M356,635 A4,4 0 1,1 364,635 A4,4 0 1,1 356,635"
+        android:fillColor="#D4AF37" />
+</vector>
